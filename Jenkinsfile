@@ -1,7 +1,7 @@
 pipeline{
 agent any
 environment {
-  java_home = "/usr/java"
+  java_home = "/usr/java/demo"
 }
 tools {
   maven 'mymaven'
